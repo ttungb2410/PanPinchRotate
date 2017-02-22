@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C718F5501E5C2DAA00034F89 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = C718F54F1E5C2DAA00034F89 /* ball.png */; };
+		C7714BBA1E5C872C007EF2C6 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = C7714BB91E5C872C007EF2C6 /* fire.png */; };
+		C7714BBC1E5C8AF8007EF2C6 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = C7714BBB1E5C8AF8007EF2C6 /* water.png */; };
 		C7ACC3631E5BDC030083B088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACC3621E5BDC030083B088 /* AppDelegate.swift */; };
 		C7ACC3651E5BDC030083B088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACC3641E5BDC030083B088 /* ViewController.swift */; };
 		C7ACC3681E5BDC030083B088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC3661E5BDC030083B088 /* Main.storyboard */; };
 		C7ACC36A1E5BDC030083B088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC3691E5BDC030083B088 /* Assets.xcassets */; };
 		C7ACC36D1E5BDC030083B088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC36B1E5BDC030083B088 /* LaunchScreen.storyboard */; };
+		C7ACC37D1E5BDC320083B088 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC3751E5BDC320083B088 /* background.png */; };
+		C7ACC37F1E5BDC320083B088 /* hero.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC3771E5BDC320083B088 /* hero.png */; };
+		C7ACC3801E5BDC320083B088 /* IronMan.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC3781E5BDC320083B088 /* IronMan.png */; };
+		C7ACC3811E5BDC320083B088 /* Mario.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC3791E5BDC320083B088 /* Mario.png */; };
+		C7ACC3821E5BDC320083B088 /* Sonic.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC37A1E5BDC320083B088 /* Sonic.png */; };
+		C7ACC3831E5BDC320083B088 /* turtleNinja.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ACC37B1E5BDC320083B088 /* turtleNinja.png */; };
+		C7ACC3861E5BE1530083B088 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACC3851E5BE1530083B088 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C7ACC35F1E5BDC030083B088 /* PanPichRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanPichRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C718F54F1E5C2DAA00034F89 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		C7714BB91E5C872C007EF2C6 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		C7714BBB1E5C8AF8007EF2C6 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		C7ACC35F1E5BDC030083B088 /* PanPinchRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanPinchRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7ACC3621E5BDC030083B088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7ACC3641E5BDC030083B088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7ACC3671E5BDC030083B088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7ACC3691E5BDC030083B088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7ACC36C1E5BDC030083B088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7ACC36E1E5BDC030083B088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ACC3751E5BDC320083B088 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		C7ACC3771E5BDC320083B088 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
+		C7ACC3781E5BDC320083B088 /* IronMan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IronMan.png; sourceTree = "<group>"; };
+		C7ACC3791E5BDC320083B088 /* Mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mario.png; sourceTree = "<group>"; };
+		C7ACC37A1E5BDC320083B088 /* Sonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sonic.png; sourceTree = "<group>"; };
+		C7ACC37B1E5BDC320083B088 /* turtleNinja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtleNinja.png; sourceTree = "<group>"; };
+		C7ACC3851E5BE1530083B088 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +66,7 @@
 		C7ACC3601E5BDC030083B088 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7ACC35F1E5BDC030083B088 /* PanPichRotate.app */,
+				C7ACC35F1E5BDC030083B088 /* PanPinchRotate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +74,40 @@
 		C7ACC3611E5BDC030083B088 /* PanPichRotate */ = {
 			isa = PBXGroup;
 			children = (
+				C7ACC3741E5BDC0B0083B088 /* Source */,
 				C7ACC3621E5BDC030083B088 /* AppDelegate.swift */,
 				C7ACC3641E5BDC030083B088 /* ViewController.swift */,
 				C7ACC3661E5BDC030083B088 /* Main.storyboard */,
 				C7ACC3691E5BDC030083B088 /* Assets.xcassets */,
 				C7ACC36B1E5BDC030083B088 /* LaunchScreen.storyboard */,
 				C7ACC36E1E5BDC030083B088 /* Info.plist */,
+				C7ACC3851E5BE1530083B088 /* Item.swift */,
 			);
 			path = PanPichRotate;
+			sourceTree = "<group>";
+		};
+		C7ACC3741E5BDC0B0083B088 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C7714BBB1E5C8AF8007EF2C6 /* water.png */,
+				C7714BB91E5C872C007EF2C6 /* fire.png */,
+				C718F54F1E5C2DAA00034F89 /* ball.png */,
+				C7ACC3751E5BDC320083B088 /* background.png */,
+				C7ACC3771E5BDC320083B088 /* hero.png */,
+				C7ACC3781E5BDC320083B088 /* IronMan.png */,
+				C7ACC3791E5BDC320083B088 /* Mario.png */,
+				C7ACC37A1E5BDC320083B088 /* Sonic.png */,
+				C7ACC37B1E5BDC320083B088 /* turtleNinja.png */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7ACC35E1E5BDC030083B088 /* PanPichRotate */ = {
+		C7ACC35E1E5BDC030083B088 /* PanPinchRotate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7ACC3711E5BDC030083B088 /* Build configuration list for PBXNativeTarget "PanPichRotate" */;
+			buildConfigurationList = C7ACC3711E5BDC030083B088 /* Build configuration list for PBXNativeTarget "PanPinchRotate" */;
 			buildPhases = (
 				C7ACC35B1E5BDC030083B088 /* Sources */,
 				C7ACC35C1E5BDC030083B088 /* Frameworks */,
@@ -79,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = PanPichRotate;
+			name = PanPinchRotate;
 			productName = PanPichRotate;
-			productReference = C7ACC35F1E5BDC030083B088 /* PanPichRotate.app */;
+			productReference = C7ACC35F1E5BDC030083B088 /* PanPinchRotate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C7ACC35A1E5BDC030083B088 /* Build configuration list for PBXProject "PanPichRotate" */;
+			buildConfigurationList = C7ACC35A1E5BDC030083B088 /* Build configuration list for PBXProject "PanPinchRotate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7ACC35E1E5BDC030083B088 /* PanPichRotate */,
+				C7ACC35E1E5BDC030083B088 /* PanPinchRotate */,
 			);
 		};
 /* End PBXProject section */
@@ -123,9 +161,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7ACC3801E5BDC320083B088 /* IronMan.png in Resources */,
+				C718F5501E5C2DAA00034F89 /* ball.png in Resources */,
 				C7ACC36D1E5BDC030083B088 /* LaunchScreen.storyboard in Resources */,
+				C7ACC37D1E5BDC320083B088 /* background.png in Resources */,
+				C7ACC3831E5BDC320083B088 /* turtleNinja.png in Resources */,
+				C7714BBA1E5C872C007EF2C6 /* fire.png in Resources */,
+				C7ACC3811E5BDC320083B088 /* Mario.png in Resources */,
 				C7ACC36A1E5BDC030083B088 /* Assets.xcassets in Resources */,
 				C7ACC3681E5BDC030083B088 /* Main.storyboard in Resources */,
+				C7ACC37F1E5BDC320083B088 /* hero.png in Resources */,
+				C7ACC3821E5BDC320083B088 /* Sonic.png in Resources */,
+				C7714BBC1E5C8AF8007EF2C6 /* water.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7ACC3651E5BDC030083B088 /* ViewController.swift in Sources */,
+				C7ACC3861E5BE1530083B088 /* Item.swift in Sources */,
 				C7ACC3631E5BDC030083B088 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7ACC35A1E5BDC030083B088 /* Build configuration list for PBXProject "PanPichRotate" */ = {
+		C7ACC35A1E5BDC030083B088 /* Build configuration list for PBXProject "PanPinchRotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7ACC36F1E5BDC030083B088 /* Debug */,
@@ -292,13 +340,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7ACC3711E5BDC030083B088 /* Build configuration list for PBXNativeTarget "PanPichRotate" */ = {
+		C7ACC3711E5BDC030083B088 /* Build configuration list for PBXNativeTarget "PanPinchRotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7ACC3721E5BDC030083B088 /* Debug */,
 				C7ACC3731E5BDC030083B088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
